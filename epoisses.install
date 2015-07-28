@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Époisses installation file,
+ * hooks implementations.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function epoisses_install() {
+  // Set appareance settings
+  theme_enable(array('beaufort'));
+  variable_set('theme_default', 'beaufort');
+}
