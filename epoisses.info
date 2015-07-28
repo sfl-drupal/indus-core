@@ -2,3 +2,7 @@ name = Époisses
 description = Le module coeur des fromages
 core = 7.x
 package = Fromages
+
+dependencies[] = rq_core
+dependencies[] = rq_cheese
+dependencies[] = rq_permissions
