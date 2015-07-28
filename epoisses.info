@@ -1,5 +1,4 @@
 name = Époisses
 description = Le module coeur des fromages
 core = 7.x
-
-dependencies[] = beaufort
+package = Fromages
