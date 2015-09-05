@@ -9,7 +9,7 @@
 /**
  * Implements hook_install().
  */
-function indus_profile_install() {
+function indus_core_install() {
 
   // Set site name
   variable_set('site_name', 'DrupalCamp MTL 13');
