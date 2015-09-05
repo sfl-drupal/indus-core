@@ -1,2 +1,2 @@
-# Époisses
-Le module coeur des fromages
+# Indus Core
+Le module coeur de l'industrialisation
