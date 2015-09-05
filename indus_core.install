@@ -2,6 +2,15 @@
 
 /**
  * @file
- * Époisses installation file,
+ * Indus Core installation file,
  * hooks implementations.
  */
+
+/**
+ * Implements hook_install().
+ */
+function indus_profile_install() {
+
+  // Set site name
+  variable_set('site_name', 'DrupalCamp MTL 13');
+}
