@@ -14,3 +14,12 @@ function indus_core_install() {
   // Set site name
   variable_set('site_name', 'DrupalCamp MTL 13');
 }
+
+/**
+ * Implements hook_update_N().
+ */
+function indus_core_update_7001() {
+
+  // Set site name
+  variable_set('site_name', 'DrupalCamp MTL 14');
+}
